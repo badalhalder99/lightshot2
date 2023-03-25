@@ -1,0 +1,465 @@
+/*** 
+
+====================================================================
+  File Name: responsive.css
+====================================================================
+
+***/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #modal-container {
+    width: 700px;
+    height: 490px;
+  }
+  .custom-modal-body {
+    width: 650px;
+    height: 360px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  #modal h2 {
+    font-size: 24px;
+  }
+  #modal-container {
+    width: 600px;
+    height: 390px;
+  }
+  .custom-modal-body {
+    width: 550px;
+    height: 260px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .download-button a.download1 {
+    margin-left: 10px;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .logo {
+    width: 120px;
+  }
+  .header-left {
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  .lightshot-report-add-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 460px;
+    height: 310px;
+  }
+  .custom-modal-body {
+    width: 400px;
+    height: 190px;
+  }
+  .dropdown-wrap {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 588px) and (max-width: 597px) {
+  .logo {
+    width: 82px;
+    margin-right: 5px;
+  }
+  .download-button a.download1 {
+    padding-top: 1px;
+    padding-bottom: 0px;
+  }
+  .download-button a.download1 img {
+    width: 13px;
+  }
+  .download-button a.download2 {
+    font-size: 10px;
+  }
+  .header-wrap {
+    display: flex;
+    padding-top: 5px;
+  }
+  .header-left {
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 587px) {
+  .logo {
+    width: 82px;
+    margin-right: 5px;
+  }
+  .download-button a.download1 {
+    padding-top: 1px;
+    padding-bottom: 0px;
+  }
+  .download-button a.download1 img {
+    width: 13px;
+  }
+  .download-button a.download2 {
+    font-size: 10px;
+  }
+  .header-wrap {
+    display: flex;
+    padding-top: 5px;
+  }
+  .header-left {
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  .footer-logo a img {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-link li a {
+  }
+  .footer-text-wrap {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+  .nav-wrap {
+    margin-top: 10px;
+    display: block;
+    margin: 5px auto;
+  }
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 460px;
+    height: 300px;
+  }
+  .custom-modal-body {
+    width: 400px;
+    height: 190px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 565px) {
+  .header-left {
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 460px;
+    height: 300px;
+  }
+  .custom-modal-body {
+    width: 400px;
+    height: 190px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 481px) and (max-width: 540px) {
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 360px;
+    height: 330px;
+    margin-top: 100px;
+  }
+  .custom-modal-body {
+    width: 300px;
+    height: 200px;
+  }
+  .close-btn-wrap button {
+    font-size: 14px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 481px) and (max-width: 502px) {
+  .header-right .social-link {
+    display: none;
+  }
+  .logo {
+    width: 60px;
+    margin-right: 5px;
+  }
+  .header-left {
+    margin-top: 7px;
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .header-right .social-link {
+    display: none;
+  }
+  .logo {
+    width: 60px;
+    margin-right: 5px;
+  }
+  .header-left {
+    margin-top: 7px;
+    width: 50%;
+  }
+  .header-right {
+    width: 50%;
+  }
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 100%;
+    height: 390px;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    margin-top: 60px;
+  }
+  .custom-modal-body {
+    width: 100%;
+    height: 250px;
+  }
+  .close-btn-wrap button {
+    font-size: 14px;
+  }
+  .card-wrap {
+    margin-top: 100px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 396px) and (max-width: 425px) {
+  .dropdown-wrap {
+    display: none;
+  }
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    width: 60%;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 395px) {
+  .dropdown-wrap {
+    display: none;
+  }
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    width: 60%;
+  }
+  #modal h2 {
+    font-size: 22px;
+  }
+  #modal-container {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .custom-modal-body {
+    width: 100%;
+    height: 210px;
+  }
+  .close-btn-wrap button {
+    font-size: 14px;
+  }
+  .card-wrap {
+    margin-top: 100px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 336px) and (max-width: 359px) {
+  .dropdown-wrap {
+    display: none;
+  }
+  .download-button .download1 {
+    display: none;
+  }
+  .download-button a.download2 {
+    border-radius: 5px;
+  }
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    width: 60%;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 335px) {
+  .dropdown-wrap {
+    display: none;
+  }
+  .download-button .download1 {
+    display: none;
+  }
+  .download-button a.download2 {
+    border-radius: 5px;
+  }
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+  }
+  .header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    width: 60%;
+  }
+  .footer-logo a img {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-link li a {
+    font-size: 12px;
+  }
+  .footer-text-wrap {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .footer-text-wrap a,
+  .footer-text-wrap span {
+    font-size: 12px;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+  .nav-wrap {
+    margin-top: 10px;
+    display: block;
+    margin: 5px auto;
+  }
+  footer {
+    padding-top: 15px;
+  }
+  .card-wrap {
+    margin-top: 80px;
+  }
+  .report-img-wrap .report-img img {
+    width: 332px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 307px) {
+  .signin-wrap {
+    display: none;
+  }
+  header {
+    height: 60px;
+  }
+  .card-wrap {
+    margin-top: 70px;
+  }
+  .report-img-wrap .report-img img {
+    width: 332px;
+  }
+  .report-add {
+    margin-left: 0px;
+  }
+}
+/*.....................responsive css file.............................*/
